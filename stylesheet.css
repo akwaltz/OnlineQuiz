@@ -1,0 +1,36 @@
+/*font-family: 'Poiret One', cursive;
+font-family: 'Dosis', sans-serif; */
+
+body {
+    background-color: #b9e3e0;
+	margin: 50px;
+}
+
+h1 {
+	font-family: 'Poiret One', cursive;
+}
+
+#intro {
+	margin: 30px;
+}
+
+h4, p, li {
+	font-family: 'Dosis', sans-serif;
+}
+
+.question {
+	font-weight: bold;
+}
+
+.cat {
+	font-size: 20px;
+	font-style: italic;
+}
+
+h5 {
+	text-align: center;
+}
+
+h3, h5 {
+	font-family: 'Poiret One', cursive;
+}

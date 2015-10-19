@@ -1,0 +1,122 @@
+<!-- Alanna Walter -->
+<!-- I was messing around and made it more than 5 questions for grading practice -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type='text/css' rel='stylesheet' href='stylesheet.css'>
+		<link href='https://fonts.googleapis.com/css?family=Poiret+One|Dosis' rel='stylesheet' type='text/css'>
+		<title>Online Quiz</title>
+	</head>
+	<body>
+		<h1>Just for Fun: An Online Quiz</h1>
+		
+		<h3 id="intro">Hello students!  This is a quick trivia quiz of varying subjects.  Read the question, type your answer into the provided text box for each one, and when you're done, click Grade My Test.  We'll calculate your grade based on South Hills' grading system.  SPELLING COUNTS!</h3>
+		
+		<!-- question 1 -->
+		<p class="question"><span class="cat">Art:</span> The famous cathedral of Notre Dame is a beautiful example of what style of architecture?</p>
+		<ul>
+			<li>Neoclassical</li>
+			<li>Ancient Roman</li>
+			<li>French Gothic</li>
+			<li>Persian Garden</li>
+		</ul>
+
+		<!-- creates text box, adds placeholder text to the box, and when button is clicked, it will display the correct answer in the case user answers wrong -->
+		<p><input type="text" id="q1Answer" placeholder="Type Answer Here"/> <span id="correctA1"></span></p>
+		<hr/>
+		
+		<!-- question 2 -->
+		<p class="question"><span class="cat">History:</span> Buttons appearing on the cuffs of sleeves was said to be invented by THIS FAMOUS GENERAL to deter his soldiers from wiping their noses on them! There's really no proof to this, but none disproving it either.</p>
+		<ul>
+			<li>Alexander the Great</li>
+			<li>Napoleon Bonaparte</li>
+			<li>Robert E. Lee</li>
+			<li>George Washington</li>
+		</ul>
+		<p><input type="text" id="q2Answer" placeholder="Type Answer Here"/> <span id="correctA2"></span></p>
+		<hr/>
+		
+		<!-- question 3 -->
+		<p class="question"><span class="cat">Music:</span> This best-selling album of all time features a black background and a prism, and it has remained near the top of Billboards list for decades. Album name only.</p>
+		<ul>
+			<li>Dark Side of the Moon</li>
+			<li>Back in Black</li>
+			<li>Thriller</li>
+			<li>Legend</li>
+		</ul>
+		
+		<p><input type="text" id="q3Answer" placeholder="Type Answer Here"/> <span id="correctA3"></span></p>
+		<hr/>
+		
+		<!-- question 4 -->
+		<p class="question"><span class="cat">Astronomy:</span> The Milky Way galaxy is our home, and you should know your neighborhood.  Approximately how big is our galaxy in diameter, in light-years?</p>
+		<ul>
+			<li>10</li>
+			<li>1000</li>
+			<li>100,000</li>
+			<li>100</li>
+		</ul>
+		
+		<p><input type="text" id="q4Answer" placeholder="Type Answer Here"/> <span id="correctA4"></span></p>
+		<hr/>
+		
+		<!-- question 5 -->
+		<p class="question"><span class="cat">Chemistry:</span> The heads of some matches are composed of Phosphorous.  We have safety matches that will only light when struck on the side of a match box or book.  What is the main element of a safety match head?</p>
+		<ul>
+			<li>Phosphorous</li>
+			<li>Magnesium chlorate</li>
+			<li>Aluminum hydride</li>
+			<li>Potassium chlorate</li>
+		</ul>
+		
+		<p><input type="text" id="q5Answer" placeholder="Type Answer Here"/> <span id="correctA5"></span></p>
+		<hr/>
+		
+		<!-- question 6 -->
+		<p class="question"><span class="cat">Super Heroes:</span> In the vast Batman universe, Michael Lane becomes what super villain?</p>
+		<ul>
+			<li>Anarchy</li>
+			<li>Clockwork King</li>
+			<li>Azrael</li>
+			<li>Riddler</li>
+		</ul>
+		
+		<p><input type="text" id="q6Answer" placeholder="Type Answer Here"/> <span id="correctA6"></span></p>
+		<hr/>
+		
+		<!-- question 7 -->
+		<p class="question"><span class="cat">Animated Sitcoms:</span> What is Homer Simpson's boss' name?</p>
+		<ul>
+			<li>Montgomery Burns</li>
+			<li>Ned Flanders</li>
+			<li>Leonard Skinner</li>
+			<li>Clarence Wiggum</li>
+		</ul>
+		
+		<p><input type="text" id="q7Answer" placeholder="Type Answer Here"/> <span id="correctA7"></span></p>
+		<hr/>
+
+		<!-- question 8 -->
+		<p class="question"><span class="cat">Film:</span> Deceased actor of the film "The Crow", Brandon Lee, was related to THIS famous martial arts master/actor.</p>
+		<ul>
+			<li>Yun-fat Chow</li>
+			<li>Michael Jai White</li>
+			<li>Cung Le</li>
+			<li>Bruce Lee</li>
+		</ul>
+		
+		<p><input type="text" id="q8Answer" placeholder="Type Answer Here"/> <span id="correctA8"></span></p>
+		<hr/>
+		
+		<!-- creates button that will call the function defined in script below -->
+		<button onclick="gradeTest();" id="btngradeTest">Grade My Test</button>
+		<hr>
+		
+		<!-- place holder that will change to the real results after the function is called -->
+		<h3 id="results">RESULTS WILL APPEAR HERE</h3>
+		
+		<h5></br>&copy; AKW 2015</h5>
+		<!-- link to Javascript -->
+		<script src="main.js"></script>
+	</body>
+</html>
